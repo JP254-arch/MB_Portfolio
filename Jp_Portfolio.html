@@ -12,7 +12,7 @@
 <body>
 
 <nav>
-  <div class="logo">JM.</div>
+  <div class="logo">J M.</div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -35,10 +35,12 @@
     </div>
     <div class="hero-visual">
       <div class="avatar-ring">
-        <div class="avatar-inner">JM</div>
+        <div class="avatar-inner">
+  <img src="./Images/jp.jpeg" alt="Joseph Mbaga" style="width:100%;height:100%;object-fit:cover;border-radius:50%;"/>
+</div>
       </div>
       <div class="floating-badge badge-1">⚡ Full-Stack Dev</div>
-      <div class="floating-badge badge-2">🚀 3 Projects Shipped</div>
+      <div class="floating-badge badge-2">🚀 4+ Projects Shipped</div>
     </div>
   </div>
 </section>
@@ -49,7 +51,7 @@
     <h2 class="section-title">The Developer Behind the Code</h2>
     <div class="about-grid">
       <div class="about-stats">
-        <div class="stat-card"><div class="stat-num">3+</div><div class="stat-label">Projects Shipped</div></div>
+        <div class="stat-card"><div class="stat-num">4+</div><div class="stat-label">Projects Shipped</div></div>
         <div class="stat-card"><div class="stat-num">FS</div><div class="stat-label">Full-Stack Certified</div></div>
         <div class="stat-card"><div class="stat-num">FE</div><div class="stat-label">Frontend Expert</div></div>
         <div class="stat-card"><div class="stat-num">BE</div><div class="stat-label">Backend Proficient</div></div>
@@ -91,6 +93,7 @@
           <div class="skill-pill">RESTful APIs</div>
           <div class="skill-pill">Middleware</div>
           <div class="skill-pill">Auth</div>
+           <div class="skill-pill">+ More</div>
         </div>
       </div>
 
@@ -101,6 +104,7 @@
           <div class="skill-pill">Mongoose</div>
           <div class="skill-pill">SQL</div>
           <div class="skill-pill">MQL</div>
+          <div class="skill-pill">+ More</div>
         </div>
       </div>
 
@@ -112,6 +116,7 @@
           <div class="skill-pill">Firebase</div>
           <div class="skill-pill">Firebase Auth</div>
           <div class="skill-pill">Firebase Hosting</div>
+          <div class="skill-pill">+ More</div>
         </div>
       </div>
 
@@ -139,7 +144,7 @@
       <div class="project-card">
         <div class="project-emoji">📱</div>
         <div class="project-title">MobiMart</div>
-        <div class="project-desc">A full-featured phone marketplace mobile application built with Dart and Firebase. Enables users to browse, list, and purchase phones with a smooth and responsive UI.</div>
+        <div class="project-desc">A full-featured phone marketplace mobile application built with Dart and Firebase. Enables users to browse, list, and purchase items with a smooth and responsive UI.</div>
         <div class="project-tags">
           <span class="tag">Dart</span><span class="tag">Flutter</span><span class="tag">Firebase</span><span class="tag">Mobile App</span>
         </div>
@@ -180,8 +185,8 @@
           <span class="tag">React</span><span class="tag">Express.js</span><span class="tag">MongoDB</span><span class="tag">Full-Stack</span>
         </div>
         <div class="project-links">
-          <a href="https://github.com/JP254-arch/Aurum-frontend.git" target="_blank" class="proj-link">⟶ Frontend</a>
-          <a href="https://github.com/JP254-arch/Aurum-backend.git" target="_blank" class="proj-link">⟶ Backend</a>
+          <a href="https://github.com/JP254-arch/Aurum-frontend.git" target="_blank" class="proj-link">⟶ View Frontend</a>
+          <a href="https://github.com/JP254-arch/Aurum-backend.git" target="_blank" class="proj-link">⟶ View Backend</a>
         </div>
       </div>
 
@@ -207,20 +212,37 @@
     <h2 class="section-title">Let's Work Together</h2>
     <p class="section-sub">Have a project in mind, a role to fill, or just want to connect? I'd love to hear from you.</p>
     <div class="contact-inner">
-      <form class="contact-form" onsubmit="handleSubmit(event)">
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem">
-          <div class="form-group"><label>Your Name</label><input type="text" placeholder="Jp Mbaga"/></div>
-          <div class="form-group"><label>Email Address</label><input type="email" placeholder="jp@gmail.com"/></div>
-        </div>
-        <div class="form-group"><label>Subject</label><input type="text" placeholder="Project enquiry, collaboration..."/></div>
-        <div class="form-group"><label>Message</label><textarea rows="5" placeholder="Tell me about your project or opportunity..."></textarea></div>
-        <button type="submit" class="submit-btn">Send Message →</button>
-      </form>
+      <form 
+  action="https://formspree.io/f/xeepwkpd"
+  method="POST" 
+  class="contact-form" 
+  onsubmit="handleSubmit(event)">
+  
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem">
+    <div class="form-group">
+      <label>Your Name</label>
+      <input type="text" name="name" placeholder="Jp Mbaga" required/>
+    </div>
+    <div class="form-group">
+      <label>Email Address</label>
+      <input type="email" name="email" placeholder="jp@gmail.com" required/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label>Subject</label>
+    <input type="text" name="subject" placeholder="Project enquiry, collaboration..." required/>
+  </div>
+  <div class="form-group">
+    <label>Message</label>
+    <textarea rows="5" name="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+  </div>
+  <button type="submit" class="submit-btn">Send Message →</button>
+</form>
       <div class="contact-info">
-        <a href="/cdn-cgi/l/email-protection#96fce6fbf4f7f1f7a4a5a5d6f1fbf7fffab8f5f9fb" class="contact-card">
-          <div class="contact-card-icon icon-email">✉️</div>
-          <div><div class="contact-card-label">Email</div><div class="contact-card-value"><span class="__cf_email__" data-cfemail="4e243e232c2f292f7c7d7d0e29232f2722602d2123">[email&#160;protected]</span></div></div>
-        </a>
+        <a href="mailto:jpmbaga233@gmail.com" target="_blank" class="contact-card">
+  <div class="contact-card-icon icon-email">✉️</div>
+  <div><div class="contact-card-label">Email</div><div class="contact-card-value">jpmbaga233@gmail.com</div></div>
+</a>
         <a href="https://github.com/JP254-arch" target="_blank" class="contact-card">
           <div class="contact-card-icon icon-github">⌨️</div>
           <div><div class="contact-card-label">GitHub</div><div class="contact-card-value">JP254-arch</div></div>
@@ -229,21 +251,60 @@
           <div class="contact-card-icon icon-linkedin">💼</div>
           <div><div class="contact-card-label">LinkedIn</div><div class="contact-card-value">jp-mbaga-43846a333</div></div>
         </a>
+        <a href="https://wa.me/254740623879" target="_blank" class="contact-card">
+  <div class="contact-card-icon icon-whatsapp">💬</div>
+  <div><div class="contact-card-label">WhatsApp</div><div class="contact-card-value">+254 740 623 879</div></div>
+</a>
       </div>
     </div>
   </div>
 </section>
 
 <footer>
-  <p>Designed & Built by <span>Joseph Mbaga</span> · Full-Stack Web Developer · © 2025</p>
+  <p>Designed & Built by <span>Joseph Mbaga</span> · Full-Stack Web Developer · © <span id="year"></span></p>
 </footer>
 
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-function handleSubmit(e){
-  e.preventDefault();
-  const btn=e.target.querySelector('.submit-btn');
-  btn.textContent='✓ Message Sent!';
-  btn.style.background='#00e5b0';
-  setTimeout(()=>{btn.textContent='Send Message →';e.target.reset();},3000);
+function handleSubmit(e) {
+  const btn = e.target.querySelector('.submit-btn');
+  btn.textContent = 'Sending...';
+  btn.disabled = true;
+
+  fetch(e.target.action, {
+    method: 'POST',
+    body: new FormData(e.target),
+    headers: { 'Accept': 'application/json' }
+  })
+  .then(response => {
+    if (response.ok) {
+      btn.textContent = '✓ Message Sent!';
+      btn.style.background = '#00e5b0';
+      e.target.reset();
+      setTimeout(() => {
+        btn.textContent = 'Send Message →';
+        btn.style.background = '';
+        btn.disabled = false;
+      }, 3000);
+    } else {
+      btn.textContent = '✗ Failed. Try Again.';
+      btn.style.background = '#e24b4a';
+      btn.disabled = false;
+    }
+  })
+  .catch(() => {
+    btn.textContent = '✗ Network Error.';
+    btn.style.background = '#e24b4a';
+    btn.disabled = false;
+  });
 }
-document.queryS
+
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
+  });
+});

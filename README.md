@@ -6,16 +6,8 @@ A clean, responsive, and professional portfolio website built to showcase my ski
 
 ## 🔗 Live Demo
 
-> **[View Live Portfolio](https://JP254-arch.github.io/FUTURE_FS_01)**  
+> **[View Live Portfolio](https://mb-portfolioo.netlify.app/)**  
 
----
-
-## 📸 Preview
-
-> *(Add a screenshot of your portfolio here after deployment)*  
-> `![Portfolio Preview](./preview.png)`
-
----
 
 ## 📋 Table of Contents
 

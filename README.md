@@ -6,16 +6,8 @@ A clean, responsive, and professional portfolio website built to showcase my ski
 
 ## 🔗 Live Demo
 
-> **[View Live Portfolio](https://JP254-arch.github.io/FUTURE_FS_01)**  
+> **[View Live Portfolio](https://mb-portfolioo.netlify.app/)**  
 
----
-
-## 📸 Preview
-
-> *(Add a screenshot of your portfolio here after deployment)*  
-> `![Portfolio Preview](./preview.png)`
-
----
 
 ## 📋 Table of Contents
 
@@ -85,10 +77,10 @@ No installation or build step required. Just open the file in a browser.
 
 ```bash
 # Clone the repository
-git clone https://github.com/JP254-arch/FUTURE_FS_01.git
+git clone https://github.com/JP254-arch/MB_Portfolio.git
 
 # Navigate into the folder
-cd FUTURE_FS_01
+cd MB_Portfolio
 
 # Open the portfolio in your browser
 open index.html
